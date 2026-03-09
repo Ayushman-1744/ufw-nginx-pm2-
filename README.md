@@ -14,7 +14,7 @@ Internet
    │
    ▼
 Nginx Reverse Proxy
-(Rate Limit: 5 req/sec/IP)
+(Rate Limit: 1 req/sec/IP)
    │
    ├── Normal Requests → Node.js API (PM2)
    │                     localhost:3000
