@@ -1,4 +1,6 @@
-                                 #      **Secure Gateway Architecture **
+---
+# Secure Gateway Architecture 
+---
 
 This project demonstrates a **secure API gateway architecture** built on a Linux server using **Nginx reverse proxy, Node.js backend, firewall hardening, rate limiting, and automated active defense**.
 
@@ -6,7 +8,7 @@ The system is designed to simulate a **production-style DevOps security pipeline
 
 ---
 
-# 🏗 Architecture Overview
+# Architecture Overview
 
 ```
 Internet
@@ -48,7 +50,7 @@ This setup demonstrates how to:
 
 ---
 
-# ⚙️ Tech Stack
+# Tech Stack
 
 | Component      | Purpose                       |
 | -------------- | ----------------------------- |
