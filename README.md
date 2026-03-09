@@ -81,7 +81,7 @@ allow outgoing
 
 | Port            | Purpose             |
 | --------------- | ------------------- |
-| 2222            | Custom SSH          |
+| 2223            | Custom SSH          |
 | 80              | HTTP                |
 | 443             | HTTPS               |
 | 10000–20000 UDP | Real-time streaming |
@@ -89,7 +89,7 @@ allow outgoing
 Example:
 
 ```
-sudo ufw allow 2222/tcp
+sudo ufw allow 2223/tcp
 sudo ufw allow 80
 sudo ufw allow 443
 sudo ufw allow 10000:20000/udp
